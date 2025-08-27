@@ -23,7 +23,7 @@ const Home = () => {
     setIsLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:8000/generatekeyword", {
+      const res = await axios.post("https://keyword-pro-backend.vercel.app/generatekeyword", {
         keyword,
         active,
       });
