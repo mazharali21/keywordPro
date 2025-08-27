@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+@import "tailwindcss";
+
+
+.font-syne {
+  font-family: "Syne", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.tab-buttons {
+  @apply flex items-center gap-2  px-3 sm:px-4 py-2 rounded-lg transition-all w-full sm:w-auto justify-center cursor-pointer
+}
