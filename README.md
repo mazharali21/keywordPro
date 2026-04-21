@@ -15,11 +15,11 @@ Modular and maintainable code structure
 git clone https://github.com/mazharali21/keywordPro.git
 cd keywordPro
 
-2. Setup Server
-cd server
+2. Setup Backend 
+cd Backend
 npm install
 
-Create a .env file inside the server directory:
+Create a .env file inside the backend directory:
 
 PORT=5000
 API_KEY=your_api_key_here
@@ -27,11 +27,11 @@ API_KEY=your_api_key_here
 Start the server:
 npm start
 
-3. Setup Client
+3. Setup Frontend
 
 Open a new terminal:
 
-cd client
+cd frontend
 npm install
 npm run dev
 
